@@ -33,6 +33,15 @@ Options:
   --pass=PASSWORD  password path   usage: --pass /sqlsec/password.txt
 ```
 
+# 脚本特点
+
+- 支持挂载密码字典
+- 支持手动指定用户
+- 支持爆破进度显示
+- 彩色效果输出
+- --help 使用说明
+
 # 使用效果
+
 本次测试的环境是phpstudy下的phpmyadmin，目前就爆破的速度来看有点慢，但再慢也是比手工输入要快的😁 希望自己后期学了多线程后可以提高爆破的速度。
 ![](http://image.3001.net/images/20180709/15311358833281.png)  
